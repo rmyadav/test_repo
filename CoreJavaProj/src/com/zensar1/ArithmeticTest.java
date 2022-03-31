@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 //import org.junit.jupiter.api.Test;
 
-class ArithmeticTest {
+class ArithmeticTest  {
 	
 	Arithmetic arithmetic = null;
 	@BeforeClass
@@ -34,7 +34,7 @@ class ArithmeticTest {
 	}
 	@Test
 	@Ignore("Not ready to execute")
-	public void testAdd2() {
+	public void testAdd1() {
 		Arithmetic arithmetic = new Arithmetic();
 		assertEquals(arithmetic.add(50, 40),35);
 	}
